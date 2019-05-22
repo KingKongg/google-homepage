@@ -25,45 +25,75 @@
     color:black;
 }
 
-.navbar {
-    position: fixed;
-    bottom:0;
-    width:100%;
-    display: block;
-  text-align: center;
-  padding: 32px 28px;
-  text-decoration: none;
-  background-color:gainsboro;
-}
-
-.left-side{
-    float:left;
-    padding-right:18px;
-    text-decoration: none;
-    font-family:arial;
-    color:grey;
-}
-
-.right-side{
-    float:right;
-  padding-right:40px;
-  font-family:arial;
- text-decoration: none;
- color:grey;
-}
-
 .pagebody{
     margin-top : 100px;
     margin-bottom:100px;
 }
 
 #searchbar{
-    width:600px;
+    margin-top:25px;
+   width:30%;
+    border-radius:15px;
+    padding:10px;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
+    
+}
+
+button{
+    margin-top:20px;
+    border-radius:5px;
+    background-color:whitesmoke;
 }
 
 .google-button{
-    margin-top:20px;
+        padding:8px;
+    font-family:Arial;
 }
+
+p{
+    font-family:arial;
+    margin-top:12px;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+
+.navbar {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    display: block;
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:16px;
+  text-decoration: none;
+  background-color:gainsboro;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:grey;
+    font-family:arial;
+    font-size:13px;
+
+}
+
+.left-side{
+    float:left;
+    padding-left:20px;
+  
+}
+
+.right-side{
+    float:right;
+  padding-right:20px;
+}
+
 
 
 
@@ -86,9 +116,14 @@
 <br>
 <button type="button" class="google-button">Google Search</button>
 <button type="button" class="google-button">I'm feeling lucky</button>
- 
+ <br>
+ <p>Google offered in: 
+     <a href = "#中文(简体)">#中文(简体)</a>
+    <a href="#Melayu">Melayu</a>
+    <a href = "#தமிழ்">தமிழ்</a></p>
 </center>
     </div>
+
 
 <div class="navbar">
     <a href="#advertising" class="left-side">Advertising</a>
